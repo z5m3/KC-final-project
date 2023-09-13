@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-color: #060047;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    }
+
+    .logo{
+        text-decoration: none;
+        color: #865DFF;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+
+#navigation{
+color:#865DFF;
+text-decoration: none;
+font-size: 1,1em;
+font-weight: 500;
+padding-left: 20px;
+}
+#navigation :hover{
+    color:white;
+}
+
+
+
+
+
+.main{
+    padding: 230px 80px;
+    text-align: center;
+    color: #865DFF;
+    background-color:black;
+    
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(SawarabiMincho-Regular.ttf);
+}
+@font-face{
+    font-family: mmfont;
+    src: url(All\ Star\ Resort.ttf);
+}
+h1{
+    font-family: myfont;
+}
+
+
+#btn{
+    text-decoration: none;
+    border-style: solid;
+    color: black;
+    background-color: #865DFF;
+    border-radius: 30px;
+    padding: 10px;
+    transition:  0.7s;
+}
+#btn:hover {
+   background-color: #060047;
+    color: #003566;
+  transform:scale(0.9);
+
+}
+
+
+
+.card-img-top{
+    padding: 5px;
+    width: 100%;
+    border-style: solid;
+    border-radius: 26px;
+   
+
+   
+}
+
+
+
+
+
+
+
+.card-body{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+.button{
+    border-style: solid;
+    border-radius: 30px;
+    border-color: black;
+    background-color: #060047;
+    padding: 8px;
+    border-width: 2px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    transition: all 0.7s;
+
+}
+
+.button:hover{
+    background-color: green;
+}
+
+
+
+
+
+
+.hawya{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all  0.7s;
+     
+}
+
+.cardu{
+    background-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    transition: all 0.6s;
+    margin-top: 20px;
+}
+
+
+ .cardu:hover{
+    transform: scale(0.9);
+    background-color: #865DFF;
+    
+ }
+ 
+
+.card-title{
+    color: white;
+    font-size: 1rem;
+}
+.card-text{
+    color: white;
+ 
+
+   
+}
+
+
+
+
+.card-body1{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+
+
+
+#wwpp{
+    border-style: solid;
+    background-color:#865DFF;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+    transition: all 0.7s;
+}
+#wwpp:hover{
+    background-color: white;
+}
+
+
+.boton{
+    color: black;
+    background: #865DFF;
+    border-radius: 30px;
+    padding: 15px;
+    border-style: solid;
+margin-bottom: 5px;
+transition: all 0.7s;
+}
+.boton:hover{
+    background-color: white;
+}
+
+
+.hh{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    color: #865DFF;
+}
+
+.cardx{
+    background-color: #001d3d;
+    border-style: solid;
+    border-radius: 30px;
+    transition: all 0.7s;
+}
+
+.cardx:hover{
+    transform: scale(0.9);
+    
+}
+
+
+
+
+
+
+  
+  .hawyaa{
+    display: flex;
+    justify-content: space-around;
+   
+  }
+
+  .cardxx{
+    background: #865DFF;
+    border-radius: 30px;
+    border-style: solid;
+    transition: all 0.7s;
+  }
+  .cardxx:hover{
+    transform: scale(0.9);
+    background-color: #060047;
+  }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba( 0,0 ,0 ,0.3 );
+   
+}
+  
+.box:hover input{
+width: 250px;
+}
+
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: all 0.8s;
+    background: transparent;
+    color: #865DFF;
+}
+
+.box a .fas{
+    color: white;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+.dropbtn {
+    background-color: #060047;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+     
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+ 
+
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  
+  }
+
+  .dropdown-content a:hover {background-color: #865DFF}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+  .dropdown:hover .dropbtn {background-color: #060047;}
+
+
+.hed{
+    text-align: start;
+}
+
+
+
+.nbb{
+    color: white;
+    text-decoration: none;
+    margin-left: 999px;
+    transition: all 0.4s;
+}
+
+.nbb:hover{
+    color: #865DFF;
+}
+
+#vvc{
+    color: white;
+ font-size: 33px;
+ margin-left: 10px;
+ transition: all 0.4s;
+}
+#vvc:hover{
+    color: #865DFF;
+ 
+}
+
+
+
+.qaz{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    transition: all 0.3s;
+    
+}
+
+.qaz:hover{
+    color: #865DFF;
+
+}
+
+
+.qaz1{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    transition: all 0.3s;
+    margin-left: 70px;
+}
+
+.qaz1:hover{
+    color: #865DFF;
+
+}
+
